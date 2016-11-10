@@ -10,18 +10,40 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
  /* == Add your own styles below this line ==
---------------------------------------------*/
+--------------------------------------------
 
-/* Icelandic Hues */
+Icelandic Hues
 #90c8c9
 #dae6e6
 #655b52
 #f0ae98
 #aec8c9
 
-/* Water Rocks Sky */
-#2b193f
-#695065
+Water Rocks Sky
+#2b193f -- Main Text Color
+#695065 -- Secondary Text Color
 #b7b4bb
-#eaf3fa
-#acc7d8
+#eaf3fa -- Page Background Color & Background Color
+#acc7d8 -- Link Color
+-------------------------------------------- */
+
+/* General */
+body {
+  background: #eaf3fa;
+  color: #2b193f;
+}
+div#page.site {
+  background: #eaf3fa;
+}
+
+button.search-submit {
+  background: #2b193f;
+}
+
+p {
+  color: #695065;
+}
+
+a {
+  color: #acc7d8;
+}
